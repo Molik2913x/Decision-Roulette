@@ -1,7 +1,9 @@
 🎡 Decision Roulette
 
 
-![Preview of app](./Roulette.png)
+<p align="center">
+  <img src="./Roulette.png" alt="Decision Roulette Preview" height="400" width="350" />
+</p>
 
 
 A modern, glassmorphic decision-making web app built with React and Vite.
@@ -67,16 +69,6 @@ Zero visual clutter
 
 Inspired by modern product UIs and motion-first interaction design.
 
-📂 Project Structure
-src/
- ├── components/     # Reusable UI components
- ├── data/           # Food & drink configuration
- ├── styles/         # Global & cursor styles
- ├── App.jsx         # App state & routing
- └── main.jsx        # React entry point
-
-
-
 
 🚀 Getting Started Locally
 # Install dependencies
@@ -106,9 +98,9 @@ PWA support
 Molik Bhateja
 Frontend Developer • UI/UX Enthusiast
 
-🌐 Portfolio: (Add link)
+🌐 Portfolio: (Soon...)
 
-🧑‍💻 GitHub: https://github.com/YOUR_USERNAME
+🧑‍💻 GitHub: https://github.com/molik2913x
 
 ⭐ Why This Project Matters
 
