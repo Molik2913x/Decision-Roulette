@@ -1,162 +1,125 @@
 🎡 Decision Roulette
 
-A sleek, glassmorphic decision-making web app built with React + Vite.
-Let the wheel decide when you can’t — food, drinks, and more — with smooth animations, dark mode, and personality.
 
-Sometimes the hardest part is choosing.
-Decision Roulette removes the friction.
+![Preview of app](./Roulette.png)
 
-🔗 Live Demo: (COming soon)
 
-✨ Features
+A modern, glassmorphic decision-making web app built with React and Vite.
+Designed to eliminate decision fatigue with smooth animations, dark mode, and a clean UX.
 
-🎯 Guided decision flow
+🔗 Live Demo: (will be Added after deployment)
+📂 Repository: https://github.com/molik2913x/Decision-Roulette
 
-Food or Drink → Category → Final Pick
+## 🛠 Tech Stack
 
-🪟 Glassmorphism UI
+| Tool                 | Purpose                          |
+|----------------------|----------------------------------|
+| [React 18](https://reactjs.org/)     | UI Framework                     |
+| [Vite](https://vitejs.dev/)          | Build tool / Dev server          |
+| [TypeScript](https://www.typescriptlang.org/) | Type safety                     |
+| [Chart.js](https://www.chartjs.org/) + [react-chartjs-2](https://react-chartjs-2.js.org/) | Graph rendering |
+| [Tailwind CSS](https://tailwindcss.com/)  | Styling / Layout                 |
+| [Lucide-react](https://lucide.dev/)         | Icons                            |
 
-Frosted cards, subtle borders, premium feel
+---
 
-🌙 Dark mode support
+🧩 What This App Solves
 
-🎲 Animated roulette-style reveal
+Decision Roulette helps users:
 
-💡 Dynamic wisdom tips
+Avoid overthinking simple choices
 
-Random advice with emoji flair
+Make instinct-based decisions
+
+Enjoy the process of choosing
+
+Whether it’s food, drinks, or “something new” — the app guides users from choice → clarity.
+
+✨ Key Features
+
+🎯 Step-by-step decision flow
+
+🌙 Dark mode UI
+
+🪟 Glassmorphism design system
+
+🎲 Animated decision reveal
+
+💡 Dynamic tips with personality
 
 🖼️ Image-backed results
 
-Each decision comes with a visual
+🖱️ Custom cursor interaction
 
-🧠 Zero overthinking
-
-One click, one outcome
-
-🖱️ Custom cursor interactions
-
-📱 Fully responsive & mobile-friendly
-
-🧠 Concept Behind the App
-
-Decision Roulette is built around a simple idea:
-
-If you hesitate after seeing the result — you already know what you want.
-
-This app:
-
-Reduces decision fatigue
-
-Encourages instinct-based choices
-
-Adds playfulness to everyday decisions
-
-Perfect for:
-
-“What should I eat?”
-
-“Tea or coffee?”
-
-“Something familiar or something new?”
-
-🛠 Tech Stack
-Tool	Purpose
-React 18	UI framework
-Vite	Lightning-fast build & dev server
-CSS (Vanilla)	Glassmorphism, animations, dark mode
-JSON	Dynamic data for food & drinks
-SVG	Crisp icons (GitHub, UI elements)
+📱 Fully responsive
 
 
-📁 Project Structure
-decision-roulette/
-├── src/
-│   ├── components/
-│   │   ├── EntryScreen.jsx
-│   │   ├── CategoryStep.jsx
-│   │   ├── ResultCard.jsx
-│   │   ├── ProTip.jsx
-│   │   ├── Cursor.jsx
-│   │   └── Footer.jsx
-│   ├── data/
-│   │   ├── food.json
-│   │   └── drink.json
-│   ├── styles/
-│   │   ├── main.css
-│   │   └── cursor.css
-│   ├── App.jsx
-│   └── main.jsx
-├── index.html
-└── vite.config.js
 
-🎨 UI & Design Highlights
+Minimalist layout
 
-Glass cards with backdrop blur
+Glassy translucent cards
 
-Soft micro-animations on hover & reveal
+Subtle micro-animations
 
-Minimal footer
+Calm color palette for dark mode
 
-Name (text)
+Zero visual clutter
 
-GitHub (icon only)
+Inspired by modern product UIs and motion-first interaction design.
 
-Readable color palette
+📂 Project Structure
+src/
+ ├── components/     # Reusable UI components
+ ├── data/           # Food & drink configuration
+ ├── styles/         # Global & cursor styles
+ ├── App.jsx         # App state & routing
+ └── main.jsx        # React entry point
 
-Subtle gold accents
 
-Calm dark tones
 
-This app is intentionally:
 
-Clean ❌ clutter
-
-Calm ❌ noisy
-
-Stylish ❌ overdesigned
-
-🚀 Local Development
-# 1. Install dependencies
+🚀 Getting Started Locally
+# Install dependencies
 npm install
 
-# 2. Start development server
+# Start development server
 npm run dev
 
-# 3. Open in browser
-http://localhost:5173
 
-🌱 Possible Future Enhancements
+Open:
+👉 http://localhost:5173
 
-🎡 True spinning roulette wheel
+🌱 Future Improvements
 
-🔊 Sound effects on reveal
+True roulette wheel animation
 
-🧩 User-defined options
+Sound effects & haptics
 
-💾 Save decision history
+User-defined options
 
-📦 Local image assets instead of URLs
+Persistent history
 
-👤 Author~MB
+PWA support
+
+👤 Author
 
 Molik Bhateja
-Frontend Developer • UI Enthusiast • Builder
+Frontend Developer • UI/UX Enthusiast
 
-🧑‍💻 GitHub: https://github.com/molik2913x
+🌐 Portfolio: (Add link)
 
-🌐 Portfolio: (Coming soon...)
+🧑‍💻 GitHub: https://github.com/YOUR_USERNAME
 
-⭐ Final Note
+⭐ Why This Project Matters
 
-This project was built to explore:
+This project demonstrates:
 
-UI polish
+Clean React architecture
 
-Interaction design
+State-driven UI
 
-Micro-animations
+Animation-first UX thinking
 
-State-driven flows in React
+Attention to visual detail
 
-If it made deciding easier — even once — it worked 🎯
+If it helps even one user decide faster — it succeeded 🎯
