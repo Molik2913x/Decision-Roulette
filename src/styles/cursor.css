@@ -1,0 +1,58 @@
+.cursor {
+  position: fixed;
+  pointer-events: none;
+  z-index: 9999;
+  transition: transform 0.1s ease; /* Smooth follow */
+}
+
+.cursor.hover {
+  transform: scale(1.2);
+}
+
+.cursor-core {
+  width: 10px;
+  height: 10px;
+  background-color: #e74c3c;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.steam {
+  position: absolute;
+  width: 2px;
+  height: 20px;
+  background-color: rgba(231, 76, 60, 0.6);
+  border-radius: 1px;
+  top: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: steamRise 1s infinite ease-in-out;
+}
+
+.steam1 {
+  animation-delay: 0s;
+}
+
+.steam2 {
+  animation-delay: 0.3s;
+  left: 40%;
+}
+
+.steam3 {
+  animation-delay: 0.6s;
+  left: 60%;
+}
+
+@keyframes steamRise {
+  0% {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(-50%) translateY(-20px);
+  }
+}
